@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://spsalesproject.sharepoint.com/sites/Jaguar/SitePages/Home.aspx",
+      "customActions": {
+        "de039fee-e585-408d-b370-da81ce327b18": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "Jaguar Land Rover",
+            "Bottom": "© Copyright 2021 Jaguar Land Rovers",
+            "Logo":"https://spsalesproject.sharepoint.com/sites/Jaguar/SiteAssets/jaguarlogo2.png"       }
+        }
+      }
+    },
+    "jaguarextension": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "customActions": {
+        "de039fee-e585-408d-b370-da81ce327b18": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

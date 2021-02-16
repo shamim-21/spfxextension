@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "jaguarextension-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/jaguarextension/JaguarextensionApplicationCustomizer.js",
+          "manifest": "./src/extensions/jaguarextension/JaguarextensionApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "JaguarextensionApplicationCustomizerStrings": "lib/extensions/jaguarextension/loc/{locale}.js"
+  }
+}
