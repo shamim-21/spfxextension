@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="Jaguarextension"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="de039fee-e585-408d-b370-da81ce327b18"
+        Properties="{&quot;Top&quot;:&quot;Logo&quot;:&quot;Bottom&quot;}">
+    </ClientSideComponentInstance>
+</Elements>
